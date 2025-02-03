@@ -1,0 +1,13 @@
+{
+    "name": "Existing Docker Compose (Extend)",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "blog",
+    "workspaceFolder": "/var/www/html",
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "postCreateCommand": "chown -R 1000:1000 /var/www/html 2>/dev/null || true"
+
+}

@@ -1,7 +1,0 @@
-services:
-  blog:
-    image: node:lts
-    ports:
-      - 3000:3000
-    volumes:
-      - .:/var/www/html

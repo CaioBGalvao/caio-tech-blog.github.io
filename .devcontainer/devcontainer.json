@@ -1,11 +1,5 @@
 {
-    "name": "Existing Docker Compose (Extend)",
-    "dockerComposeFile": ["../docker-compose.yml"],
-    "service": "blog",
-    "workspaceFolder": "/var/www/html",
-    "customizations": {
-        "vscode": {
-            "extensions": []
-        }
-    }
+  "forwardPorts": [
+    3000
+  ]
 }
